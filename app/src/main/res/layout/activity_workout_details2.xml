@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutDetails2">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="1012dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="30dp"
+                android:text="Fullbody Workout"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:fontFamily="@font/poppinsbold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05" />
+
+            <ImageButton
+                android:id="@+id/imageView60"
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.042"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.044"
+                app:srcCompat="@drawable/back_navs" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="345dp"
+                android:layout_marginTop="-40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.044"
+                app:srcCompat="@drawable/detail_navs" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="342dp"
+                android:layout_height="164dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.197"
+                app:srcCompat="@drawable/video_section" />
+
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Jumping Jack"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:fontFamily="@font/poppinsbold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.438" />
+
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-5dp"
+                android:text="Easy | 350 calories burn"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                app:fontFamily="@font/poppinsregular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.485" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:fontFamily="@font/poppinsbold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.113"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.551" />
+
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="357dp"
+                android:layout_height="81dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:text="A jumping jack, also known as a star jump and called a side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                app:fontFamily="@font/poppinsregular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.648"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.644" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="How to Do It"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:fontFamily="@font/poppinsbold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.114"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.744" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.197"
+                app:srcCompat="@drawable/wd2" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="-350dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:text="Spread Your Arms" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="297dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="-1dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="To make the gestures feel more relaxed, stretch your arms as you start this movement. No bending of hands."
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:text="Rest at the Toe" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="297dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="-1dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="The basis of this movement is jumping. Now, what needs to be considered is that you have to use the tips of your feet"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:text="Adjust Foot Movement" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="297dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="-1dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Jumping Jack is not just an ordinary jump. But, you also have to pay close attention to leg movements."
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:text="Claping Both Hands" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="297dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="-1dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="This cannot be taken lightly. You see, without realizing it, the clapping of your hands helps you to keep your rhythm while doing the Jumping Jack"
+                android:textColor="@color/gray"
+                android:textSize="15dp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView89"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="Custom Repititons"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                app:fontFamily="@font/poppinsbold"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.114"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.744" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView63"-->
+<!--                android:layout_width="362dp"-->
+<!--                android:layout_height="183dp"-->
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:layout_marginTop="1dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.197"-->
+<!--                app:srcCompat="@drawable/repetitions" />-->
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="7dp"
+                android:text="DONE" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152597760727",
+    "project_id": "kratos-7f458",
+    "storage_bucket": "kratos-7f458.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152597760727:android:5f06ac17e390a75dedbe92",
+        "android_client_info": {
+          "package_name": "com.example.kratos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152597760727-dd6fphl50qupcn91fpsk4117743ofe50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlDr9Li93Tv06xLYFEE9LjxppeOuHwMUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152597760727-dd6fphl50qupcn91fpsk4117743ofe50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kratos</string>
+    <string name="Sun">Sun,1</string>
+    <string name="Mon">Mon,2</string>
+    <string name="Tue">Tue,3</string>
+    <string name="Wed">Wed,4</string>
+    <string name="Thurs">Thurs,5</string>
+    <string name="Fri">Fri,6</string>
+</resources>
