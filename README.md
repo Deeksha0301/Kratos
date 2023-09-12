@@ -9,4 +9,7 @@ services to provide secure authentication for users.
 - Technology Used: Kotlin, Firebase.
 
   
-![zz](https://github.com/Deeksha0301/Kratos/assets/92042650/a2a55457-a9e5-4f32-9840-772976386051)
+
+
+![login](https://github.com/Deeksha0301/Kratos/assets/92042650/cc97a2b5-763e-4f69-9516-f43ca57432ac)
+
