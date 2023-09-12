@@ -15,3 +15,6 @@ services to provide secure authentication for users.
 ![workout](https://github.com/Deeksha0301/Kratos/assets/92042650/41484a39-72a8-4dae-b21e-ab365e50ceec)
 ![meal](https://github.com/Deeksha0301/Kratos/assets/92042650/7f902f9a-1a24-48af-a7ab-7a4b4b417057)
 ![sleep](https://github.com/Deeksha0301/Kratos/assets/92042650/7e7c0dde-7a82-4026-87aa-c5e5efb49352)
+
+![image](https://github.com/Deeksha0301/Kratos/assets/92042650/c8a450a4-e3d8-48a2-b715-5ddec282a145)
+
