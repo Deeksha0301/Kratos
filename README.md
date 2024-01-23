@@ -17,7 +17,7 @@ Kratos is a fitness application with a front-end focus designed to help users tr
 ## How to Use
 
 1. **Clone the Repository:**
-   - Clone or download the project repository from [GitHub](your-github-repo-link).
+   - Clone or download the project repository from [GitHub](https://github.com/Deeksha0301/Kratos).
 
 2. **Navigate to Project Directory:**
    - Open a terminal or command prompt and navigate to the directory where the project is located.
